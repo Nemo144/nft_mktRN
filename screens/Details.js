@@ -1,8 +1,8 @@
 import React from "react";
 import { Text } from "react-native";
 
-const Detail = () => {
+const Details = () => {
   return <Text>Detail</Text>;
 };
 
-export default Detail;
+export default Details;
