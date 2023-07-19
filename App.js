@@ -3,7 +3,7 @@ import { NavigationContainer, DefaultTheme } from "@react-navigation/native";
 import { useFonts } from "expo-font";
 import { View, Text, StyleSheet } from "react-native";
 import Home from "./screens/Home";
-import Details from "./screens/details";
+import Detail from "./screens/Detail";
 
 const Stack = createStackNavigator();
 
@@ -23,7 +23,7 @@ const App = () => {
         initialRouteName="Home"
       >
         <Stack.Screen name="Home" component={Home} />
-        <Stack.Screen name="Details" component={Details} />
+        <Stack.Screen name="Detail" component={Detail} />
       </Stack.Navigator>
     </NavigationContainer>
   );
