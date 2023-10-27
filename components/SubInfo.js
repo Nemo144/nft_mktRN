@@ -32,3 +32,13 @@ export const People = () => {
     </View>
   );
 };
+
+export const EndDate = () => {
+  return (
+    <View>
+      <Text>people</Text>
+    </View>
+  );
+};
+
+export const SubInfo = () => {};
