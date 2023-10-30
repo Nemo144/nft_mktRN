@@ -1,5 +1,6 @@
 import { View, Text } from "react-native";
 import React from "react";
+import { SIZES } from "../constants";
 
 export const NFTTitle = () => {
   return (
@@ -41,4 +42,14 @@ export const EndDate = () => {
   );
 };
 
-export const SubInfo = () => {};
+export const SubInfo = () => {
+  return (
+    <View
+      style={{
+        width: "100%",
+        paddingHorizontal: SIZES.font,
+        marginTop: -SIZES.extraLarge,
+      }}
+    ></View>
+  );
+};
