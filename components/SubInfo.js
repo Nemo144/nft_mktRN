@@ -50,6 +50,8 @@ export const SubInfo = () => {
         paddingHorizontal: SIZES.font,
         marginTop: -SIZES.extraLarge,
       }}
-    ></View>
+    >
+      <Text>SubInfo</Text>
+    </View>
   );
 };
