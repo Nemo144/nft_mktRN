@@ -50,9 +50,31 @@ export const EndDate = () => {
         paddingHorizontal: SIZES.font,
         paddingVertical: SIZES.base,
         backgroundColor: COLORS.white,
+        justifyContent: "center",
+        alignItems: "center",
+        ...SHADOWS.light,
+        elevation: 1,
+        maxWidth: "50%",
       }}
     >
-      <Text>EndDate</Text>
+      <Text
+        style={{
+          fontStyle: FONTS.regular,
+          fontSize: SIZES.small,
+          color: COLORS.primary,
+        }}
+      >
+        Ending In
+      </Text>
+      <Text
+        style={{
+          fontStyle: FONTS.semiBold,
+          fontSize: SIZES.medium,
+          color: COLORS.primary,
+        }}
+      >
+        12hrs 30mins
+      </Text>
     </View>
   );
 };
