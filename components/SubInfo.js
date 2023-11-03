@@ -73,7 +73,7 @@ export const EndDate = () => {
           color: COLORS.primary,
         }}
       >
-        12hrs 30mins
+        12h 30m
       </Text>
     </View>
   );
